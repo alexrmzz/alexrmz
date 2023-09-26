@@ -1,6 +1,6 @@
 .inicio{
 --opacidad-negro: 0.5;
-background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/fondo1.webp");
+background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/nfl.webp");
 background-position: center;
 background-size: cover;
 height:30rem;  
@@ -21,3 +21,24 @@ height:30rem;
         font-size: 2rem;
     }
 }
+
+.logo{
+    height: 42px;
+    width: 38px;
+}
+
+.d-block{
+    height:520px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px;
+}
+
+.text-team{
+    color: whitesmoke;
+    text-wrap: balance;
+    text-decoration-thickness: white;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+
+
